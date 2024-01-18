@@ -1,3 +1,4 @@
+-- stored procedure AddBonus
 DELIMITER $$
 CREATE PROCEDURE AddBonus(p_user_id INT, p_project_name VARCHAR(255), p_bonus INT)
 BEGIN 
